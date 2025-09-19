@@ -16,7 +16,7 @@ dp = updater.dispatcher
 class Telegram_Bot:
     def start_command(self, update, context):
         username = update.message.chat.username
-        email = 'mkmanassi11111@gmail.com'
+        email = 'test@gmail.com'
 
         db.save(update.message.chat.id, 
                 username,
